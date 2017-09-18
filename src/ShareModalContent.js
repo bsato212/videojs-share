@@ -93,14 +93,6 @@ export default class ShareModalContent {
             ${copyBtn}
           </div>
         </div>
-
-        <div class="vjs-share__subtitle hidden-xs">${this.player.localize('Embed Code')}:</div>
-        <div class="vjs-share__short-link-wrapper hidden-xs">
-          <input class="vjs-share__short-link" type="text" readonly="true" value="${this.options.embedCode}">
-          <div class="vjs-share__btn">
-            ${copyBtn}
-          </div>
-        </div>
       </div>
 
       <div class="vjs-share__bottom">
